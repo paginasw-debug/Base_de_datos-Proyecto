@@ -1,0 +1,359 @@
+.lista1 {
+    display:flex;
+    justify-content: space-around;
+    color:rgb(209, 190, 176);
+    list-style-type: none;
+}
+
+a{
+    color: rgb(209, 190, 176);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover {
+    color: rgb(136, 119, 108);
+    text-decoration: none;
+    transition: all 0.9s ease;
+}
+
+#div1 {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(104, 53, 61);
+    position: relative;
+    padding-top: 2px;
+    margin-top: 5px;
+}
+
+/* BLOQUE INICIO */
+#inicio {
+    background: linear-gradient(to right, rgb(209, 190, 176), rgb(209, 190, 176));
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contenido-inicio {
+    max-width: 900px;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contenido-inicio h1 {
+    font-size: 35px;
+    color: rgb(104, 53, 61);
+    margin-bottom: 10px;
+}
+
+.contenido-inicio h2 {
+    font-size: 1.5em;
+    color: rgb(184, 100, 113);
+    margin-bottom: 20px;
+}
+
+.contenido-inicio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.imagen-inicio img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-inicio img:hover {
+    transform: scale(1.05);
+}
+
+/* BLOQUE SOBRE EL PROYECTO */
+#sobre-proyecto {
+    background: linear-gradient(to right, rgb(209, 190, 176), rgb(209, 190, 176));
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-proyecto {
+    max-width: 1000px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.contenedor-proyecto h1 {
+    text-align: center;
+    font-size: 2.2em;
+    color:rgb(104, 53, 61);
+    margin-bottom: 20px;
+}
+
+.contenedor-proyecto h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(184, 100, 113);
+    margin-bottom: 30px;
+}
+
+.contenedor-proyecto p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.info {
+    background:rgba(209, 190, 176, 0.199);
+    border-left: 6px solid rgb(184, 100, 113);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.info h3 {
+    color: rgb(184, 100, 113);
+    margin-bottom: 10px;
+}
+
+.info ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.info ul li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 35px;
+    font-size: 1.05em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.info ul li::before {
+    content: "◆"; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(184, 100, 113);
+    font-size: 1.2em;
+    line-height: 1.2;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.imagen-proyecto {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagen-proyecto img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-proyecto img:hover {
+    transform: scale(1.05);
+}
+
+/* BLOQUE FUNCIONES */
+#funciones {
+    background: linear-gradient(to right, rgb(209, 190, 176), rgb(209, 190, 176));
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-funciones {
+    max-width: 1000px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.contenedor-funciones h1 {
+    text-align: center;
+    font-size: 2.2em;
+    color: rgb(104, 53, 61);
+    margin-bottom: 25px;
+}
+
+.contenedor-funciones p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+
+.funcion-bloque {
+    background: rgb(209, 190, 176, 0.15); 
+    border-left: 6px solid rgb(184, 100, 113);
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+}
+
+.funcion-bloque h3 {
+    color: rgb(184, 100, 113);
+    font-size: 1.4em;
+    margin-bottom: 12px;
+}
+
+.funcion-bloque ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.funcion-bloque ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    font-size: 1.05em;
+    color: #333;
+}
+
+.funcion-bloque ul li::before {
+    content: "◆";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(184, 100, 113);
+    font-size: 1.2em;
+    line-height: 1.2;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.imagen-funciones {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagen-funciones img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-funciones img:hover {
+    transform: scale(1.05);
+}
+
+/* BLOQUE NOSOTROS */
+#nosotros {
+    background: linear-gradient(to right, rgb(209, 190, 176), rgb(209, 190, 176));
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-nosotros {
+    max-width: 1000px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.contenedor-nosotros h1 {
+    text-align: center;
+    font-size: 2.2em;
+    color: rgb(104, 53, 61);
+    margin-bottom: 25px;
+}
+
+.contenedor-nosotros p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.equipo {
+    background: rgb(209, 190, 176, 0.15); 
+    border-left: 6px solid rgb(184, 100, 113);
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+
+.equipo h3 {
+    color: rgb(104, 53, 61);
+    font-size: 1.4em;
+    margin-bottom: 12px;
+}
+
+.equipo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.equipo ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size: 1.05em;
+    color: #333;
+}
+
+.equipo ul li::before {
+    content: "◆";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(184, 100, 113);
+    font-size: 1.2em;
+    line-height: 1.2;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.equipo ul li:hover::before {
+    transform: scale(1.3);
+    color: rgb(104, 53, 61);
+}
+
+.equipo ul li:hover {
+    background-color: rgba(209, 190, 176, 0.25);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+/* Imagen del equipo */
+.imagen-nosotros {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagen-nosotros img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-nosotros img:hover {
+    transform: scale(1.05);
+}
